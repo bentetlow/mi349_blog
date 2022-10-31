@@ -1,0 +1,28 @@
+html {
+    background-color: #e3e3e3;
+}
+body {
+background-color: #fff;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 40px;
+color: #242424
+padding: 40px;
+border-top: 10px solid #242424; 
+}
+
+h1 {
+font-size: 3em;
+margin: 0;
+}
+
+p {
+line-height: 1.4em;
+}
+
+#blog {
+border-top: 1px dotted #ccc;
+}
+
+.blog-post {
+border-bottom: 1px dotted #ccc;
+}
