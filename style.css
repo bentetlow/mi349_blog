@@ -24,4 +24,55 @@ border-top: 1px dotted #ccc;
 
 .blog-post {
 border-bottom: 1px dotted #ccc;
+display: flex;
+justify-content: space-between;
 }
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.main,
+.sidebar{
+    border: 3px solid black;
+    padding: 15px;
+    background-color: #fff;
+}
+.main {
+    width: 60%;
+    height: 150vh;
+  }
+  
+  .sidebar {
+    width: 25%;
+    height: 25vh;
+  }
+  
+  body {
+    background-color: #ccc;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  .main {
+    width: 60%;
+    height: 150vh;
+  }
+  
+  .sidebar {
+    width: 25%;
+    height: 25vh;
+  }
+  
+  body {
+    background-color: #ccc;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  section {
+    background: #ccc;
+    display: flex;
+  }
+  article { 
+    background: #999;
+    padding: 20px;
+    margin: 20px;
+  }
