@@ -76,3 +76,25 @@ justify-content: space-between;
     padding: 20px;
     margin: 20px;
   }
+
+  .card {
+    background: #121212;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+  }
+
+  #cl {
+    background: red;
+    position: sticky;
+    top: 0;
+  }
+
+@media (max-width: 400px) {
+  #cl {
+    background: red;
+  }
+}
